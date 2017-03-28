@@ -9,6 +9,7 @@ import { RefuploadComponent } from './refupload/refupload.component';
 import { ReflistComponent } from './reflist/reflist.component';
 import { DeviceviewComponent } from './deviceview/deviceview.component';
 import { DeviceEditorComponent } from './device-editor/device-editor.component';
+import { FileSelectDirective } from 'ng2-file-upload';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DeviceEditorComponent } from './device-editor/device-editor.component';
     RefuploadComponent,
     ReflistComponent,
     DeviceviewComponent,
-    DeviceEditorComponent
+    DeviceEditorComponent,
+    FileSelectDirective
   ],
   imports: [
     BrowserModule,
